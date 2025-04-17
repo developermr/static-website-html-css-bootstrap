@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MR Devloper</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* body {
+      font-family: 'Orbitron', sans-serif;
+    } */
+    .hero-section {
+      background: url('images/banner.jpg') no-repeat center center;
+      background-size: cover;
+      height: 50vh;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .hero-section h1 {
+      font-size: 4rem;
+      font-weight: bold;
+    }
+    .btn-primary {
+      background-color: #4CAF50;
+      border-color: #4CAF50;
+    }
+    .btn-primary:hover {
+      background-color: #45a049;
+      border-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Markhor Logo" class="logo" style="max-width: 150px;"> MR UK </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="service.html">Service</a></li>
+          <li class="nav-item"><a class="nav-link" href="team.html">No need</a></li>
+          <li class="nav-item"><a class="nav-link" href="career.html">Career</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Hero Section -->
+  <div class="hero-section">
+    <div>
+      <!-- <img width=100% src="images/banner.jpeg"/> -->
+      <h1>Welcome to MR Developer Youtube Channel</h1>
+      <p>Web , APP and Game Development Tutorials </p>
+      <a href="#recent-publications" class="btn btn-primary">Explore Our Games</a>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="container py-5">
+    <h2 class="text-center text-success mb-4">Our Services</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/gameservice.jpg" class="card-img-top" alt="Game Development">
+          <div class="card-body">
+            <h5 class="card-title">Game Development</h5>
+            <p class="card-text">We specialize in creating innovative and engaging games across various platforms.</p>
+            <a href="service.html" class="btn btn-success">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/digitalmarket.jpeg" class="card-img-top" alt="Digital Marketing">
+          <div class="card-body">
+            <h5 class="card-title">Digital Marketing</h5>
+            <p class="card-text">We provide comprehensive digital marketing services to promote our games and apps.</p>
+            <a href="service.html" class="btn btn-success">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/websercive.jpeg" class="card-img-top" alt="Web Design">
+          <div class="card-body">
+            <h5 class="card-title">Web Design</h5>
+            <p class="card-text">Our team builds responsive, user-friendly websites to enhance user engagement.</p>
+            <a href="service.html" class="btn btn-success">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Recent Publications Section -->
+  <div class="container py-5" id="recent-publications">
+    <h2 class="text-center text-success mb-4">Recent Publications</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/uktrafficrule.jpg" class="card-img-top" alt="UK Driving Simulator Game">
+          <div class="card-body">
+            <h5 class="card-title">UK Driving Rule Car Simulator Game</h5>
+            <p class="card-text">Experience realistic driving and learn UK road rules with our immersive driving simulator game.</p>
+            <a href="https://play.google.com/" class="btn btn-success" target="_blank">Play Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/shooting.png" class="card-img-top" alt="Bubble Shooter Game">
+          <div class="card-body">
+            <h5 class="card-title">Bubble Shooter</h5>
+            <p class="card-text">A fun and addictive bubble shooter game. Test your skills and clear the board!</p>
+            <a href="https://play.google.com/" class="btn btn-success" target="_blank">Play Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/constructiongame.jpg" class="card-img-top" alt="Railway Construction Game">
+          <div class="card-body">
+            <h5 class="card-title">Railway Construction</h5>
+            <p class="card-text">Build and manage your own railway construction project in this strategic game.</p>
+            <a href="https://play.google.com/" class="btn btn-success" target="_blank">Play Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer bg-dark text-white pt-5 pb-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <div class="footer-logo">
+            <img src="images/logo.png" alt="Markhor Logo" class="mb-3" style="max-width: 150px;">
+            <p>Making you realize the power of<br>Digital Intelligence</p>
+          </div>
+        </div>
+        <div class="col-md-2 mb-3">
+          <h5>Company</h5>
+          <ul class="list-unstyled">
+            <li><a href="index.html" class="text-white text-decoration-none">Home</a></li>
+            <li><a href="about.html" class="text-white text-decoration-none">About</a></li>
+            <li><a href="portfolio.html" class="text-white text-decoration-none">Portfolio</a></li>
+            <li><a href="service.html" class="text-white text-decoration-none">Services</a></li>
+            <li><a href="publishing.html" class="text-white text-decoration-none">Publishing</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-3">
+          <h5>Get In Touch</h5>
+        
+          <p><strong>Email:</strong> <a href="mailto:salman@gmail.com" class="text-white">salman@gmail.com</a></p>
+          <div class="social-icons">
+            <a href="#" class="text-white me-3"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-white me-3"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="text-center">
+            <p>&copy; 2025  MR Developer. All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>

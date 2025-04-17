@@ -1,0 +1,71 @@
+body {
+  background-color: #000;
+  color: #fff;
+  /* font-family: 'Orbitron', sans-serif; */
+}
+.navbar, .footer {
+  background-color: #111;
+}
+.nav-link {
+  color: #fff;
+}
+.nav-link:hover {
+  color: #0f0;
+}
+.footer {
+  padding: 20px 0;
+  text-align: center;
+}
+.footer .social-icons a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+.footer .social-icons a:hover {
+  color: #0f0;
+}
+.logo {
+  height: 40px;
+}
+.card {
+  background-color: #1a1a1a;
+  color: #fff;
+  border: none;
+}
+.card:hover {
+  background-color: #222;
+}
+.hero-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: -1px;
+}
+.footer {
+  background-color: #212121;  /* Dark background */
+  color: #fff;                /* White text */
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.footer a:hover {
+  color: #4CAF50; /* Green hover effect */
+  text-decoration: underline;
+}
+
+.footer-logo img {
+  max-width: 150px;
+}
+
+.footer .social-icons a {
+  font-size: 1.5rem;
+}
+
+.footer .social-icons a:hover {
+  color: #4CAF50; /* Green hover effect on social icons */
+}
